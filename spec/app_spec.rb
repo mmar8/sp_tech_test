@@ -6,4 +6,11 @@ describe Webpages do
     subject.read_list
     expect(webpages.read_list).to include("/help_page/1 126.318.035.038\n")
   end
+
+  it 'sorts webpages by most page views' do
+    webpages = Webpages.new
+    webpages.read_list
+    expect(webpages.sort_by_most_page_views).to include("/index", 82)
+  end
+        
 end
