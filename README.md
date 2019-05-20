@@ -17,6 +17,6 @@ Technical test that requires to create a ruby app.
 ####How to run
   1. Open terminal 
   2. cd /home/User1/program
-  3. irb -r ./app.rb
+  3. irb -r ./lib/app.rb
   4. Webpages.new.run
 
