@@ -14,4 +14,9 @@ Technical test that requires to create a ruby app.
 ####Linter
   Rubocop
 
+####How to run
+  1. Open terminal 
+  2. cd /home/User1/program
+  3. irb -r ./app.rb
+  4. Webpages.new.run
 
