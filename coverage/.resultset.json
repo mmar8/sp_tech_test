@@ -17,18 +17,28 @@
         1,
         null,
         null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/mariavanaale/Projects/sp_tech_test/lib/app.rb": [
         1,
         1,
-        3,
+        4,
         null,
         null,
         1,
-        3,
-        1500,
+        4,
+        2000,
         null,
+        null,
+        null,
+        1,
+        7,
         null,
         null,
         1,
@@ -37,6 +47,6 @@
         null
       ]
     },
-    "timestamp": 1558361018
+    "timestamp": 1558361137
   }
 }

@@ -12,5 +12,11 @@ describe Webpages do
     webpages.read_list
     expect(webpages.sort_by_most_page_views).to include("/index", 82)
   end
+
+  it 'sorts webpages by most unique views' do
+    webpages = Webpages.new
+    webpages.read_list
+    expect(webpages.sort_by_most_unique_views).to include("/index", 23)
+  end
         
 end
